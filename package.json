@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/sotpao/protractor-workshop-2018#readme",
   "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
     "latest-version": "^4.0.0",
     "protractor": "^5.4.2"
   },
