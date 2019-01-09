@@ -4,9 +4,12 @@
   "description": "This is a Workshop about Protractor",
   "main": "index.js",
   "scripts": {
+    "postinstall":"webdriver-manager update --gecko false",
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
-    "test": "npm run build && protractor dist/protractor/local.config.js"
+    "test:local": "npm run build && protractor dist/protractor/local.config.js",
+    "test:headless": "npm run build && protractor dist/protractor/headless.config.js",
+    "test": "npm run test:headless"
   },
   "repository": {
     "type": "git",
