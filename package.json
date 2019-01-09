@@ -1,0 +1,37 @@
+{
+  "name": "workshop-protractor",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Protractor",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && protractor dist/protractor/local.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotpao/protractor-workshop-2018.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "protractor"
+  ],
+  "author": "Paola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sotpao/protractor-workshop-2018/issues"
+  },
+  "homepage": "https://github.com/sotpao/protractor-workshop-2018#readme",
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "latest-version": "^4.0.0",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.6",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
+  }
+}
