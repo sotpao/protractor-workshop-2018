@@ -25,10 +25,12 @@
   },
   "homepage": "https://github.com/sotpao/protractor-workshop-2018#readme",
   "dependencies": {
+    "latest-version": "^4.0.0",
     "protractor": "^5.4.2"
   },
   "devDependencies": {
     "@types/jasminewd2": "^2.0.6",
+    "@types/node": "^10.12.18",
     "typescript": "^3.2.2"
   }
 }
