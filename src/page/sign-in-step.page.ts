@@ -8,7 +8,7 @@ export class SignInStepPage {
   constructor() {
     this.emailField = $('#email');
     this.passwordField =  $('#passwd');
-    this.submitLogginButton = $('#SubmitLogin > span');
+    this.submitLogginButton = $('#SubmitLogin');
   }
 
   public async login(): Promise<void> {
