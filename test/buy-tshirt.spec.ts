@@ -25,7 +25,7 @@ describe('Given a shopping page', () => {
       const summaryStepPage: SummaryStepPage = new SummaryStepPage();
 
       await menuContentPage.goToTShirtMenu();
-      await productListPage.selectProduct();
+      await productListPage.selectProduct('Faded Short Sleeve T-shirts');
       await productAddedModalPage.proceedToCheckout();
       await summaryStepPage.proceedToCheckout();
 
@@ -34,7 +34,7 @@ describe('Given a shopping page', () => {
     describe('and login to the application', () => {
       beforeAll(async () => {
         const signInStepPage: SignInStepPage = new SignInStepPage();
-        await signInStepPage.login();
+        await signInStepPage.login('aperdomobo@gmail.com', 'WorkshopProtractor');
       });
 
       describe('and select default address', () => {
