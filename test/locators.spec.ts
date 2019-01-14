@@ -14,7 +14,7 @@ describe('Given a form page', () => {
         lastName: 'Sotelo',
         sex: 'Female',
         experience: 4,
-        profession: ['Automation Tester'],
+        profession: ['Manual Tester', 'Automation Tester'],
         tools: ['Selenium Webdriver'],
         continent: 'South America',
         commands: [

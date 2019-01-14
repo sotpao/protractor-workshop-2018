@@ -3,7 +3,8 @@ import { reporter } from './helpers/reporter';
 
 export const config: Config = {
   framework: 'jasmine',
-  specs: ['../test/locators.spec.js'],
+  // specs: ['../test/**/*.spec.js'],
+  specs: ['../test/i-frame.spec.js'],
   SELENIUM_PROMISE_MANAGER: false,
   getPageTimeout: 30000,
   jasmineNodeOpts: {
