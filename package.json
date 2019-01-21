@@ -4,13 +4,15 @@
   "description": "This is a Workshop about Protractor",
   "main": "index.js",
   "scripts": {
-    "postinstall": "webdriver-manager update --gecko false",
+    "postinstall": "webdriver-manager update",
     "clean": "rm -rf dist awesome-report",
     "lint": "tslint --project tsconfig.json protractor/**/*.ts test/**/*.ts src/**/*.ts",
     "build": "npm run lint && npm run clean && tsc",
     "test:local": "npm run build && protractor dist/protractor/local.config.js",
     "test:headless": "npm run build && protractor dist/protractor/headless.config.js",
-    "test": "npm run test:headless"
+    "test:saucelabs": "npm run build && protractor dist/protractor/saucelabs.config.js",
+    "test:zalenium": "npm run build && protractor dist/protractor/zalenium.config.js",
+    "test": "npm run test:saucelabs"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,8 @@
     "jasmine-spec-reporter": "^4.2.1",
     "latest-version": "^4.0.0",
     "protractor": "^5.4.2",
+    "ruby": "^0.6.1",
+    "travis": "^0.1.1",
     "tslint": "^5.12.0",
     "tslint-config-airbnb": "^5.11.1"
   },

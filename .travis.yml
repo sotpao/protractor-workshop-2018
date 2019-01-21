@@ -4,4 +4,7 @@ addons:
 language: node_js
 cache:
   directories:
-    - "node_modules"
+  - node_modules
+env:
+  global:
+    secure: aFZJzejSEN1mk70aCW6msZ1e2V9kel6/fMYFDZjNWhSumiWthSJyxE2N01Gh+SDco9Gt+f6evY9y4+tRD5/fvDjU3JvADXiKRBzsyBHiza5rCtSEiaMg0OLkAqXRBdCmTzMdR/SR7FE90U86f8pYOH4RB/CJmFz8SWGTWxQU3S8NpAg35NciRu+vStN2XwVM0/4U5JSAzHlXHtjNURr8piTQZ+E9dvF61FjKyKEHEkrMpKMKN1QIUVTRXGW+pCj0to+H6v4+YFiXeWtAuo8GExnlm5DkpQTotFDU+i97kRsEmimQtrxvhG4+fg0i4LHBQfgII6RGvBz5BoqklBSFEGPEUY5SDb0BpDXXfvoKJsh1pH8eKQLG1/xo+DT1lOXqEOwK7peKMPUSDAQB8+CJem/MtEn8VvPcuz78+0Qxc6s1CsnqfkcAqlTpVFTit9UKAgd9wiZpJrWT1l/QtmIYVmWgiMPcv+5rf4SAqaLsOih0/H6kmTSozsvy9+X5blo0urlxpLqazeS7QpZ2AM8ldunaadz/DLoFBiTHcG0vH0R81JEkydxovhTjuiYepV1rpbxSdTS9vISk2vGZrVJ61MBfk727raUal4pFL6RfhhbMisW8RVphqjDN4Qs5cS4qaJwf7pHPVv3Q1zjniQKo6Ec87+ttiUJjE6UKE5WvVRo=
